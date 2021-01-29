@@ -52,12 +52,10 @@ export default {
   },
   methods: {
     getCurrentWeather () {
-      console.log(this.current)
       this.currentWeatherType = this.current
       this.inputVisible = false
     },
     getForecastWeather () {
-      console.log(this.forecast)
       this.currentWeatherType = this.forecast
       this.inputVisible = false
     },
