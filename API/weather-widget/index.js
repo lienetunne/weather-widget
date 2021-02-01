@@ -27,7 +27,7 @@ module.exports = ({ config }) => {
   });
 
   api.get('/forecast', (req, res) => {
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=2a31870381a1480babd82748212701&q=London&days=3`;
+    const url = `http://api.weatherapi.com/v1/forecast.json?key=2a31870381a1480babd82748212701&q=London&days=10`;
     request(
       {
         url,
